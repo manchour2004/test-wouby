@@ -1,0 +1,46 @@
+ /* Styles de base pour le bouton */
+ #NON, #OUI {
+    position: absolute; /* Corrigé de float à absolute */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#NON {
+    top: 300px;
+    left: 50px;
+}
+#OUI {
+    top: 300px;
+    left: 230px; /* Position initiale différente pour l'autre bouton */
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 100vh;           /* Full viewport height */
+    margin: 0;               /* Éviter le décalage */
+}
+h1{
+    position: absolute;
+    top:30px
+}
+#container {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(45, 53, 74);
+    color: aliceblue;
+    filter: drop-shadow(2px 2px 10px black);
+    max-width: 90%;
+    width: 300px;
+    height: 400px;
+    position: relative; /* Positionner les boutons par rapport au conteneur */
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center;     /* Center buttons vertically */
+    text-align: center;
+}
